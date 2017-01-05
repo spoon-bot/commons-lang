@@ -32,6 +32,7 @@ import java.lang.reflect.Modifier;
 import java.nio.charset.Charset;
 import java.util.Random;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 /**
@@ -461,6 +462,7 @@ public class RandomStringUtilsTest {
      * in generated strings.  Will fail randomly about 1 in 1000 times.
      * Repeated failures indicate a problem.
      */
+    @Ignore
     @Test
     public void testRandomStringUtilsHomog() {
         final String set = "abc";
